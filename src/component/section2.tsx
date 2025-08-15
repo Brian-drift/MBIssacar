@@ -1,5 +1,4 @@
 import Card from "./card.tsx";
-import Athlete from '../assets/athlet.jpg'
 import mitsubishi from '../assets/MITSUBISHI.jpg'
 import volvagen from '../assets/VW.jpg'
 import honda from '../assets/HONDA.jpg'
@@ -7,20 +6,18 @@ import Toyota from '../assets/TOYOTA.jpg'
 import Crown from "../assets/crown.jpg";
 import Range from  "../assets/Range-Rover.jpg"
 import dahiatsu from "../assets/DAIHATSU.jpg"
-import harrier from "../assets/harrier.jpg";
 import Interieur from "../assets/interieur.jpg";
 import Bmw1 from "../assets/BMV1.jpg";
 import './section2.css'
+import './App.css'
 import WhatsAppLink from "./wathApp.tsx";
-import crownB from "../assets/CrownB.jpg"
 import mercedes from "../assets/MERCEDES.jpg";
 import lexus from "../assets/LEXUS.jpg";
 import mazdaImage from "../assets/MAZDA.jpg";
 
 function Section2() {
     return (
-        <div className="section2">
-
+        <div className='container'>
             <text style={{
                 textAlign: "center",
                 color: "white",

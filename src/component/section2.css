@@ -27,9 +27,9 @@
 }
 .section1{
     display: flex;
-    flexDirection: column;
-    justifyContent: center;
-    alignItems: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .glass{
     z-index: 10;
@@ -50,9 +50,9 @@
     }
     .section1{
         display: flex;
-        flexDirection: row;
-        justifyContent: center;
-        alignItems: center;
+        flex-direction: row;
+        justify-Content: center;
+        align-Items: center;
     }
     .sectionPrin{
         display: flex;

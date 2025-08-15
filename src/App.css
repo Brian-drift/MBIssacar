@@ -1,72 +1,85 @@
 body {
   margin: 0;
 }
-canvas {
-  height: 100vh !important;
-  width: 100vw !important;
-}
 .container {
   background-image: linear-gradient(to left top, #000000 70%,#fbfbfc 100%);
   padding-bottom: 250px;
+  height: 2050px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.heroSection {
-  opacity: 1;
-  transition:  opacity 1.6s ease-in;
-  color: #eeeeee;
-  font-size: 5rem;
-  font-weight: bold;
-  font-family: "Arial Black";
-  position: absolute;
-  top: 10%;
-  left: 10%;
-  transform: translate(-10%, -10%);
+.row{
+  margin-bottom: 200px;
+  margin-top: 200px;
+  justify-content: space-evenly;
 }
-.description {
-  position: absolute; 
+.col-1 {
+  color: white;
+  font-size: 80px;
+  font-family: 'cursive', sans-serif;
+  margin-top: 100px;
 }
-.glass{
-  z-index: 10;
-  position: absolute;
-  right: 5%;
-  bottom: 5%;
-  background: rgba(255, 255, 255, 0.38);
-  width: 500px;
-  border: 1px solid gray;
-  border-radius: 15px;
-  height: 200px;
-  backdrop-filter: blur(15px);
+.col-2 {
+  color: white;
+  font-size: 80px;
+  font-family: 'cursive', sans-serif;
+  margin-top: 100px;
 }
-.titleInsideGlass {
-  font-size: 20px;
-  text-align: left;
-  font-family:  "Arial Black";
-  color: rgba(255, 255, 255, 0.46);
-  margin-left: 30px;
+.col-2-div{
+  margin-top : 100px;
 }
-.container-secondaire {
-  position: absolute;
-  bottom: 50%;
-  left: 50%;
+.voiture {
+  color: #949494;
+  font-size: 80px;
+}
+.qualite {
+  color: #6e6e6e;
+  font-size: 80px;
+}
+
+.sectionPrin{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+}
+.whatsapp{
+  position: absolute;
+  bottom: -1200px;
 }
 @media (max-width: 768px) {
-  .container {
-    background-image: linear-gradient(to left top, #000000 70%,#fbfbfc 100%);
+  .row{
+    margin-bottom: 300px;
+    margin-top: 400px;
+    justify-content: space-evenly;
   }
-  .heroSection {
-    text-align: center;
-    opacity: 1;
-    transition: opacity 1.6s ease-in;
-    color: #eeeeee;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: "Arial Black";
+  .col-1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'cursive', sans-serif;
+    margin-top: 100px;
+  }
+  .voiture {
+    color: #949494;
+    font-size: 40px;
+  }
+  .qualite {
+    color: #6e6e6e;
+    font-size: 60px;
+  }
+  .col-2 {
+    padding : 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'cursive', sans-serif;
+    margin-top: 100px;
+  }
+  .whatsapp{
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: -1250px;
   }
 }
