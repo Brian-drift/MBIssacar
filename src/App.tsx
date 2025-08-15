@@ -1,12 +1,10 @@
 import Card from "./component/card.tsx";
 import mitsubishi from './assets/MITSUBISHI.jpg'
 import volvagen from './assets/VW.jpg'
-import honda from './assets/HONDA.jpg'
 import Toyota from "./assets/TOYOTA.jpg"
 import Crown from "./assets/crown.jpg";
 import Range from  "./assets/Range-Rover.jpg"
 import dahiatsu from "./assets/DAIHATSU.jpg"
-import Interieur from "./assets/interieur.jpg";
 import Bmw1 from "./assets/BMV1.jpg";
 import './App.css'
 import WhatsAppLink from "./component/wathApp.tsx";
