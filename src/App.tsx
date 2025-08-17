@@ -16,7 +16,7 @@ import backGroundImage from "./assets/Allways for website.png"
 function Section2() {
     return (
         <div className='container'>
-            <div className={"header"}> <text> Bonjours </text> <text> I&B business</text> <WhatsAppLink /> </div>
+            <div className={"header"}> <text> Bonjours </text> <text> I&B business </text> <WhatsAppLink /> </div>
             <div className='row'>
                 <img src={backGroundImage}  alt="Background" className='img-fluid' />
                 <text className='col-1'>
