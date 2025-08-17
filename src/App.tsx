@@ -64,8 +64,8 @@ function Section2() {
                 padding: "20px",
             }}>
                 <text className={"col-3"}>
-                    A noter : ceci n'est qu'un site vitrine, en d'autre mots mots aucune transaction n'est faite via ce site.
-                    Mais le but de ce site est de mettre avant des vehicules ainsi que le whatsapp des vendeurs
+                    A noter : ceci n'est qu'un site vitrine, en d'autre mots aucune transaction n'est faite via ce site.
+                    Donc le but de ce site est de mettre en avant des vehicules ainsi que le whatsapp des vendeurs.
                 </text>
             </div>
 
