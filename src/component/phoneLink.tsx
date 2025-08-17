@@ -1,7 +1,7 @@
 import phone from '../assets/img_3.png'
 
 function PhoneLink() {
-    const phoneNumber = "243843193064";
+    const phoneNumber = "+243843193064";
     const phoneLink = `tel:${phoneNumber}`;
     return (
         <a href={phoneLink} target="_blank" rel="noopener noreferrer">
