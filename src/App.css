@@ -22,18 +22,18 @@ body {
 }
 .col-1 {
   color: #fdfdfd;
-  font-size: 60px;
-  font-family: 'Arial', sans-serif;
+  font-size: 50px;
+  font-family: 'Berlin Sans FB Demi', sans-serif;
   font-weight: bold;
   position : absolute;
   z-index: 20;
   left: 10%;
-  top: 20%;
+  top: 30%;
 }
 .col-2 {
   color: #e3e3e3;
   font-size: 80px;
-  font-family: 'cursive', sans-serif;
+  font-family: 'Arial', sans-serif;
   margin-top: 100px;
 }
 .col-3{
@@ -80,12 +80,12 @@ body {
   .col-1 {
     color: white;
     font-size: 20px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Berlin Sans FB Demi', sans-serif;
     font-weight: bold;
     position : absolute;
     z-index: 20;
     left: 4%;
-    top: 18%;
+    top: 33%;
   }
   .voiture {
     color: #e0e0e0;

@@ -8,7 +8,21 @@ function WhatsAppLink() {
 
     return (
         <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            <img src={whatsApp} alt ="Contacter via WhatsApp" style={{ width: '50px', height: '50px', borderRadius: '50%' }} />
+            <button style={{
+                display:'flex',
+                flexDirection:'row',
+                alignItems:'center',
+                justifyContent : 'flex-start',
+                height: '40px',
+                width: '120px',
+                marginLeft:'50px',
+                borderRadius:'20px',
+                borderWidth:'0px',
+                backgroundColor:'#31783d',}}>
+                <img src={whatsApp} alt ="Contacter via WhatsApp" style={{ width: '30px', height: '30px', borderRadius: '50%', margin: '5px' }} />
+                <text style={{ color : '#c4c4c4',}}> WhatsApp </text>
+            </button>
+
         </a>
     );
 }

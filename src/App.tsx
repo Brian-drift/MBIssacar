@@ -1,6 +1,5 @@
 import Card from "./component/card.tsx";
 import mitsubishi from './assets/MITSUBISHI.jpg'
-import volvagen from './assets/VW.jpg'
 import Toyota from "./assets/TOYOTA.jpg"
 import Crown from "./assets/crown.jpg";
 import Range from  "./assets/Range-Rover.jpg"
@@ -11,16 +10,16 @@ import WhatsAppLink from "./component/wathApp.tsx";
 import mercedes from "./assets/MERCEDES.jpg";
 import lexus from "./assets/LEXUS.jpg";
 import mazdaImage from "./assets/MAZDA.jpg";
-import backGroundImage from "./assets/Allways for website.png"
+import backGroundImage from "./assets/FOND-site.png"
 
-function Section2() {
+function App() {
     return (
         <div className='container'>
-            <div className={"header"}> <text> Bonjours </text> <text> I&B business </text> <WhatsAppLink /> </div>
+            <div className={"header"}> <text> I&B business </text> <WhatsAppLink /> </div>
             <div className='row'>
                 <img src={backGroundImage}  alt="Background" className='img-fluid' />
                 <text className='col-1'>
-                    ACHETER <br/> DES  <span className={"voiture"}> VOITURES </span> <br/> DE  <br/> <span className={"qualite"}> QUALITER. </span>
+                    ACHETER <br/> VOTRE <span className={"voiture"}> PROCHAIN </span> <br/> VEHICULE  <br/>  DE <span className={"qualite"}> QUALITER. </span>
                 </text>
                 <div style={{
                     display: "flex",
@@ -39,24 +38,19 @@ function Section2() {
                 </div>
             </div>
             <div  className='row-2'>
-                <Card image={Toyota}/>
-                <Card image={lexus}/>
+                <Card image={Toyota} text={'Toyota'}/>
+                <Card image={lexus} text={'Lexus'}/>
+                <Card image={mercedes} text={'Mercedes  Benz'}/>
             </div>
             <div  className='row-2'>
-                <Card image={mazdaImage}/>
-                <Card image={mercedes}/>
+                <Card image={mitsubishi} text={'Mitsubishi'}/>
+                <Card image={mazdaImage} text={'Mazda'}/>
+                <Card image={Bmw1} text={'BMW'}/>
             </div>
             <div  className='row-2'>
-                <Card image={mitsubishi}/>
-                <Card image={Bmw1}/>
-            </div>
-            <div  className='row-2'>
-                <Card image={dahiatsu}/>
-                <Card image={Crown}/>
-            </div>
-            <div  className='row-2'>
-                <Card image={volvagen}/>
-                <Card image={Range}/>
+                <Card image={dahiatsu} text={'Daihatsu'}/>
+                <Card image={Crown} text={'Crown'}/>
+                <Card image={Range} text={'Discovery'}/>
             </div>
             <div style={{
                 display: "flex",
@@ -64,8 +58,7 @@ function Section2() {
                 padding: "20px",
             }}>
                 <text className={"col-3"}>
-                    A noter : ceci n'est qu'un site vitrine, en d'autre mots aucune transaction n'est faite via ce site.
-                    Donc le but de ce site est de mettre en avant des vehicules ainsi que le whatsapp des vendeurs.
+                    Ce site est en cours d'éxécution car en éffet nous dettenons plusieurs vehicules à notre actif, pour plus d'information veiller nous contacter.
                 </text>
             </div>
 
@@ -73,4 +66,4 @@ function Section2() {
     );
 }
 
-export default Section2;
+export default App;
